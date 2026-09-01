@@ -8,4 +8,4 @@ let gb = Number(answer);
 let mb = gb * 1024;
 console.log("resultat est :" + mb + "  MB" );
 rl.close()
-});
+});  
