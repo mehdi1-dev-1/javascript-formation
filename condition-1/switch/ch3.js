@@ -16,13 +16,7 @@ switch (o) {
         console.log("resultat : " + (pn*dn));
         break;
         case "/":
-        if (dn == 0 )
-        { console.log(" on ne peux pas deviser par 0")}
-            else {
-    
-        console.log("resultat : " + (pn/dn));
-        }
+       dn == 0 ?  console.log(" on ne peux pas deviser par 0") : console.log("resultat : " + (pn/dn));
         break;
-    
     default: console.log("Opérateur invalide.")
 }
